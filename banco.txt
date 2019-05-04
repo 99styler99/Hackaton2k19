@@ -1,0 +1,26 @@
+create table fotografo(
+	id_fotografo serial primary key,
+	idade numeric(3),
+	nome varchar(200),
+	cidade varchar(100),
+	cpf varchar(11),
+	email varchar(100),
+	telefone varchar(20),
+	tipo varchar(50),
+	classificacao numeric(10),
+	experiencia numeric(3),
+	login varchar(50),
+	senha varchar(50)
+)
+
+create table cliente(
+  id_cliente serial primary key,
+	login varchar(50),
+	senha varchar(50),
+	idade numeric(3),
+	nome varchar(200),
+	cidade varchar(100),
+	cpf varchar(11),
+	email varchar(100),
+	telefone varchar(20)
+)
